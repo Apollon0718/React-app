@@ -1,0 +1,31 @@
+.quiz-header {
+    display: flex;
+    flex-direction: row;
+}
+.quiz-header button{
+    background-color: #fafafa;
+    border: none;
+    cursor: pointer;
+    padding: 30px;
+}
+.quiz-header button:hover{
+    background: #fafafa;
+}
+.quiz-header button:focus{
+    outline: 0px;
+}
+.progress-wrapper {
+    width: 90%;
+    right: 20%;
+}
+.progressbar {
+    display: block;
+    height: 37px;
+    border-bottom: 3px solid #40d440;
+    transition: width 1s ease-out;
+}
+.exit {
+    color: #525252;
+    
+    font-size: 2em;
+}

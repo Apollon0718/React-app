@@ -1,0 +1,22 @@
+.answer .userAnswerCorrect:after,
+.answer .userAnswerIncorrect:after {
+    content: none;
+}
+
+.userAnswerCorrect {
+    border: 2px solid #4aaa35 !important;
+  }
+  .userAnswerIncorrect {
+    border: 2px solid #c72828 !important;
+  }
+.answer .userAnswerSkipped,
+.tableheadings {
+    min-width: 200px;
+}
+.userAnswerSkipped {
+    border: none;
+
+  }
+li > h4 {
+    min-width: 23px;
+}

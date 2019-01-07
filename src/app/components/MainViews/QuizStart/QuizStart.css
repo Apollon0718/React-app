@@ -1,0 +1,13 @@
+.quizstart {
+    text-align: center;
+    margin-top: 140px;
+}
+.quizstart * {
+    color: #000;
+}
+.quizstart h2 {
+    font-size: 1.2em;
+}
+.quizstart h3 {
+    font-size: 0.8em; 
+}

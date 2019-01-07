@@ -1,0 +1,31 @@
+#root, .quiz {
+  height: 100%
+}
+.quiz {
+  background-color: #fafafa;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quiz button,
+.quiz h1,
+.quiz h2,
+.quiz h3,
+.quiz h4 {
+  font-family: 'Overlock', sans-serif;
+}
+.quiz-container {
+background-color: #fafafa;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.quiz-problemTitle > span {
+font-size: 0.8em;
+color: #aaa;
+}
+.mainview {
+  overflow-y: scroll;
+  height: 100%;
+}

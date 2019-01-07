@@ -1,0 +1,50 @@
+.results-container {
+    overflow-x: hidden;
+}
+.results-container li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+}
+.results-container ul {
+    display: block;
+    
+    margin: 0 auto;
+    padding: 0;
+}
+.results-container {
+    display: block;
+    margin: 0 auto;
+    list-style-position: inside;
+    list-style-type: none; 
+    text-align: center;
+}
+.results-container button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 1px;
+    text-decoration: none;
+    background-color: #fafafa;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 100ms ease-in-out, 
+                transform 50ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.youranswer, .answer {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tableheadings {
+    font-weight: 600;
+}
